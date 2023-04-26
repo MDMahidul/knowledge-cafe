@@ -3,7 +3,7 @@ import '../SingleCard/SingleCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const SingleCard = ({article}) => {
+const SingleCard = ({article,handleBookMarked}) => {
     const {id,blogCoverImage,blogTitle,authorName,authorImage,readTime,publishDate} = article;
     return (
         <>
@@ -20,7 +20,7 @@ const SingleCard = ({article}) => {
                         </div>
                         <div>
                             <p className='read-time d-inline me-2'>{readTime} min read</p>
-                            <span><FontAwesomeIcon className='b-icon' icon={faBookmark} /></span>
+                            <a href="#" onClick={()=>handleBookMarked(id)}><FontAwesomeIcon className='b-icon' icon={faBookmark} /></a>
                         </div>
                     </div>
                     <div>
