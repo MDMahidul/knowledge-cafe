@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "authorName": "Mr. John Wick",
+        "authorImage": "https://www.usanetwork.com/sites/usablog/files/styles/blog-post-embedded--tablet/public/2023/02/how-to-watch-john-wick.jpg",
+        "blogTitle": "Deep Reinforcement Learning: A Paradigm Shift in Autonomous Systems",
+        "blogCoverImage": "https://techworldbd.io/img/blog/dlearning.webp",
+        "readTime": 5,
+        "publishDate": "Mar 21 (1 month ago)"
+    },
+    {
+        "id": "2",
+        "authorName": "Mr. Bruce Wayne",
+        "authorImage": "https://hips.hearstapps.com/hmg-prod/images/ben-affleck-attends-amazon-studios-world-premiere-of-air-at-news-photo-1680880487.jpg?crop=1.00xw:0.727xh;0,0&resize=1200:*",
+        "blogTitle": "The Role of Blockchain in Digital Identity Management",
+        "blogCoverImage": "https://techworldbd.io/img/blog/bchain.webp",
+        "readTime": 8,
+        "publishDate": "Mar 25 (1 month ago)"
+    },
+    {
+        "id": "3",
+        "authorName": "Mr. Clark Kent",
+        "authorImage": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f359881d-6bb2-4391-aba6-779f7084edd4/da4pl3i-7089013d-f42a-4102-9a2e-fb401551d201.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YzNTk4ODFkLTZiYjItNDM5MS1hYmE2LTc3OWY3MDg0ZWRkNFwvZGE0cGwzaS03MDg5MDEzZC1mNDJhLTQxMDItOWEyZS1mYjQwMTU1MWQyMDEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Vc135VdLyhAtJahR0QmKBXCrm1QW7cajtyDCu6QFJRU",
+        "blogTitle": "The Rise of AI Assistants",
+        "blogCoverImage": "https://techworldbd.io/img/blog/ai.webp",
+        "readTime": 10,
+        "publishDate": "April 02 (22 days ago)"
+    },
+    {
+        "id": "4",
+        "authorName": "Mrs. Lois Lane",
+        "authorImage": "https://scpr.brightspotcdn.com/dims4/default/1905efa/2147483647/strip/true/crop/770x466+0+0/resize/880x533!/quality/90/?url=https%3A%2F%2Fa.scpr.org%2F63103_3a12ab8e5f511dfb8f4a30d179fcc90b_original.jpg",
+        "blogTitle": "Web Sockets: The Future of Real-Time Communication",
+        "blogCoverImage": "https://techworldbd.io/img/blog/websocket.webp",
+        "readTime": 6,
+        "publishDate": "April 12 (15 days ago)"
+    }
+]
