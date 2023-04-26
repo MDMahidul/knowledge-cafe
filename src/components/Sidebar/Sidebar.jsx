@@ -2,9 +2,9 @@ import React from 'react';
 
 const Sidebar = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <h1>This is sidebar</h1>
+        </>
     );
 };
 
