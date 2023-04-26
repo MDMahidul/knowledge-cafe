@@ -1,0 +1,24 @@
+.sidebar-container{
+    background: rgba(17, 17, 17, 0.05) ;
+    border-radius: 8px;
+}
+.spent-time{
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    height: 80px;
+}
+.spent-time p{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 45px;
+    color: #6047EC;
+}
+.bookmarked-count{
+    font-size: 24px;
+    font-weight: 700;
+}
+.bmarked-title{
+    font-weight: 600;
+    font-size: 18px;
+}

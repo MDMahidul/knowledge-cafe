@@ -25,7 +25,7 @@ const SingleCard = ({article}) => {
                     </div>
                     <div>
                         <h2 className='blog-title'>{blogTitle}</h2>
-                        <a className='mt-3' href="#">Mar as read</a>
+                        <a className='mt-3' href="#">Mark as read</a>
                     </div>
                 </div>
             </div>
