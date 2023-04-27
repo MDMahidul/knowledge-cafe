@@ -9,12 +9,31 @@ const Cards = () => {
   const [countBookmark, setCountBookmark] = useState([]);
   const [data, setData] = useState([]);
   const [readTime,setReadTime] = useState([]);
+  const [cart, setCart] = useState([]);
 
     useEffect(() => {
       fetch(`data.json`)
         .then((res) => res.json())
         .then((data) => setData(data));
     }, []);
+
+    useEffect(() => {
+      const storedCart = JSON.parse(localStorage.getItem("blogIds"));
+      const savedCart = [];
+      //step-1: get id of the added Player
+      for (const id in storedCart) {
+        //step-2: get player from the player by using id
+        const addedPlayer = data.find((blog) => blog.id === id);
+        //step-3: add quantity
+        if (addedPlayer) {
+          const quantity = storedCart[id];
+          addedPlayer.quantity = quantity;
+
+          savedCart.push(addedPlayer);
+        }
+        setCart(savedCart);
+      }
+    }, [data]);
 
     const handleBookMarked = (id) => {
       const existingIds = JSON.parse(localStorage.getItem("blogIds")) || [];
@@ -63,6 +82,7 @@ const Cards = () => {
               countBookmark={countBookmark}
               data={data}
               readTime={readTime}
+              cart={cart}
             ></Sidebar>
           </div>
         </div>
